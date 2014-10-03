@@ -35,7 +35,7 @@ function go(find, replace, txt){
 
 	var a = new RegExp('\\b('+find +')\\b', 'ig');
 
-	return txt.replace(a, '<b>$1</b>');
+	return txt.replace(a, '<b title="$1">'+replace+'</b>');
 }
 
 
