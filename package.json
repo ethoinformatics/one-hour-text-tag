@@ -1,0 +1,23 @@
+{
+  "name": "one-hour-word-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundler.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -e js,vash ./bundler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^5.12.1",
+    "lodash": "^2.4.1",
+    "mkdirp": "^0.5.0",
+    "node-lessify": "0.0.4-a",
+    "vashify": "^0.3.3",
+    "y": "^0.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1"
+  }
+}
