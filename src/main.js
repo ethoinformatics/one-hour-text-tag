@@ -30,8 +30,6 @@ $(function(){
 
 function go(find, replace, txt){
 
-	debugger
-
 	var a = new RegExp('\\b('+find +')\\b', 'ig');
 
 	return txt.replace(a, '<b title="$1">'+replace+'</b>');
